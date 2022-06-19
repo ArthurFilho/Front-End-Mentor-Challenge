@@ -1,0 +1,35 @@
+.image{
+    display: none;
+}
+.uppercase{
+    display: flex;
+    width: 100%;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    margin-right: 100px;
+}
+.rem{
+    margin-left: 10px;
+}
+.logo1{
+    margin-right: 30px;
+}
+.logo2{
+    margin-right: 30px;
+}
+.logo3{
+    margin-right: 30px;
+}
+.mobile{
+    display:flex;
+}
+.everybody{
+    display: flex;
+    flex-direction: column;
+}
