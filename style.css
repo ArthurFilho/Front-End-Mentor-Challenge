@@ -107,15 +107,15 @@ justify-content: center;
 align-items: center;
 }
 .features a{
-    margin-right: 15px;
+    margin-right: 10px;
     color: #808080;
 }
 .company{
-    margin-right: 15px;
+    margin-right: 10px;
     color: #808080;
 }
 .careers{
-    margin-right: 15px;
+    margin-right: 10px;
     color: #808080;
 }
 .about{
@@ -141,6 +141,7 @@ ul{
     position: relative;
     margin: 0px;
     padding: 0px;
+    border-radius: 5px;
 }
 ul li{
     display: inline-block;
@@ -161,10 +162,11 @@ ul li:hover{
 }
 ul ul{
     position: absolute;
-    min-width: 50px;
+    min-width: 70px;
     display: block;
     display: none;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 10px;
 }
 ul ul li{
     display: block;
@@ -179,6 +181,9 @@ ul li:hover ul{
 .mobile{
     display: none;
     overflow: hidden;
+}
+.up{
+    display: none;
 }
 
 
